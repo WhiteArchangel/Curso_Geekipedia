@@ -1,3 +1,3 @@
-mensaje = "Soy "
-nombre = "Ángel Ordóñez."
-print(mensaje + nombre)
+mensaje = "Esto une dos o más "
+mensaje_dos = "cadenas de caracteres con distintas variables."
+print(mensaje + mensaje_dos)
