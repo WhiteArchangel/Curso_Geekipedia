@@ -28,7 +28,7 @@ divisor = 10
 cociente = dividendo / divisor
 print("El resultado de la división es: " + str(cociente))
 
-print ("El Módulo/Resto")
+print ("El Módulo o Resto")
 dividendo_resto = 55
 divisor_resto = 25
 resto = dividendo_resto % divisor_resto
