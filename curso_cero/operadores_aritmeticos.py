@@ -1,36 +1,42 @@
 print("La Suma")
-num_uno = 1
-num_dos = 9
-suma = num_uno + num_dos
+sumando_uno = 1
+sumando_dos = 9
+suma = sumando_uno + sumando_dos
 print("El resultado de la suma es: " + str(suma))
 
 print("La Resta")
-nume_uno = 10
-nume_dos = 1
-resta = nume_uno - nume_dos
+minuendo = 10
+sustraendo = 1
+resta = minuendo - sustraendo
 print("El resultado de la resta es: " + str(resta))
 
-print("La multiplicación")
-numer_uno = 10
-numer_dos = 5
-multiplicacion = numer_uno * numer_dos
+print("La Multiplicación")
+multiplicando = 10
+multiplicador = 5
+multiplicacion = multiplicando * multiplicador
 print("El resultado de la multiplicación es: " + str(multiplicacion))
 
-print("La División")
-numero_uno = 10
-numero_dos = 10
-division = numero_uno / numero_dos
-print("El resultado de la división es: " + str(division))
-
 print("La Potenciación")
-numerouno = 10
+base_pot = 10
 exponente = 5
-potencia = numerouno ** exponente
+potencia = base_pot ** exponente
 print("El resultado de la potenciación es: " + str(potencia))
 
 print("La División")
-dividendo = 50
+dividendo = 25
 divisor = 10
 cociente = dividendo / divisor
 print("El resultado de la división es: " + str(cociente))
+
+print ("El Módulo/Resto")
+dividendo_resto = 55
+divisor_resto = 25
+resto = dividendo_resto % divisor_resto
+print("El resultado del módulo es: " + str (resto))
+
+print("La División Entera")
+dividendo_entero = 55
+divisor_entero = 10
+cociente_entero = dividendo_entero // divisor_entero
+print("El resultado de la división es: " + str(cociente_entero))
 
